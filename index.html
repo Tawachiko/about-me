@@ -1,13 +1,40 @@
-<!doctype html>
-<html lang="ja">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title> プロフィール</title>
-    <meta name="description"content="プロフィール"
-
-<!--リセットCSS-->
-　　<link rel="stylesheet" href="https://example.com/ress/dist/ress.min.CSS">
-
+    <link rel="stylesheet" href="index.css">
+    <title>プロフィール</title>
 </head>
-</html>
+<body>
+    <header class="site-header">
+        <div class="wrapper site-header__wrapper">
+          <a href="#" class="brand">Brand</a>
+          <nav class="nav">
+            <button class="nav__toggle" aria-expanded="false" type="button">
+              menu
+            </button>
+            <ul class="nav__wrapper">
+              <li class="nav__item"><a href="#">Home</a></li>
+              <li class="nav__item"><a href="#">About</a></li>
+              <li class="nav__item"><a href="#">Services</a></li>
+              <li class="nav__item"><a href="#">Hire us</a></li>
+              <li class="nav__item"><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header> 
 
+      <button onclick="back()">戻る</button>
+      <div class="footer02">
+        <ul class="menu">
+          <li><a href="#">AAAAA</a></li>
+          <li><a href="#">BBBBB</a></li>
+          <li><a href="#">CCCCC</a></li>
+          <li><a href="#">DDDDD</a></li>
+          <li><a href="#">EEEEE</a></li>
+        </ul>
+        <p class="copyright">
+          &copy; My Site
+        </p>
+      </div>
+</body>
+</html>
