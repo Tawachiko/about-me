@@ -85,5 +85,18 @@
 
 body {
     background-image: url(/background.jpg);
-    background-size: cover; 
+    background-size: cover;
+}
+
+fukui {
+    background-size: cover;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+
+nursery {
+    background-size: cover;
+    font-weight: bold;
+    font-size: 100px;
 }
