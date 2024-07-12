@@ -84,57 +84,39 @@
 }
 
 body {
-    background-image: url(/background.jpg);
+    background-image: url(image/background.jpg);
     background-size: cover;
+    font-size: 60px;
 }
 
-fukui {
-    background-size: cover;
-    font-weight: bold;
-    font-size: 100px;
-}
-
-
-nursery {
+.fukui {
     background-size: cover;
     font-weight: bold;
-    font-size: 100px;
+    font-size: 150px;
 }
 
-.flex-box {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .flex-box img {
-    vertical-align: left;
-  }
-  
-  .thumnail-left-box {
-    width: 50%;
-    margin: 0;
-    padding: 0 0 2.5%;
-  }
-  
-  .thumnail-left-box img {
-    width: 50%;
-  }
-  
-  .thumnail-right-box {
-    width: 50%;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  .thumnail-right-box li {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    margin: 0 0 0 auto;
-  }
-  
-  .thumnail-right-box li img {
-    width: 50%;
-    margin: 0 0 auto;
-  }
+
+.nursery {
+    background-size: cover;
+    font-weight: bold;
+    font-size: 150px;
+}
+
+.elementary {
+    background-size: cover;
+    font-weight: bold;
+    font-size: 150px;
+}
+
+.junior {
+    background-size: cover;
+    font-weight: bold;
+    font-size: 150px;
+}
+
+.high {
+    background-size: cover;
+    font-weight: bold;
+    font-size: 150px;
+}
+
