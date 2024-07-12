@@ -100,3 +100,41 @@ nursery {
     font-weight: bold;
     font-size: 100px;
 }
+
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-box img {
+    vertical-align: left;
+  }
+  
+  .thumnail-left-box {
+    width: 50%;
+    margin: 0;
+    padding: 0 0 2.5%;
+  }
+  
+  .thumnail-left-box img {
+    width: 50%;
+  }
+  
+  .thumnail-right-box {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .thumnail-right-box li {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 0 0 auto;
+  }
+  
+  .thumnail-right-box li img {
+    width: 50%;
+    margin: 0 0 auto;
+  }
