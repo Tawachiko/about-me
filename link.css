@@ -1,0 +1,47 @@
+.main {
+    padding: 2rem;
+    max-width: 1080px;
+    margin: auto;
+}
+
+.image-container {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+}
+
+text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    padding: 1rem;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.a {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding: 1rem 0;
+    font-size: 20px;
+}
