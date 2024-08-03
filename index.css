@@ -1,7 +1,3 @@
-/* 
-** The Header Media Queries **
-** Tweak as per your needs **
-*/
 .brand {
     font-weight: bold;
     font-size: 50px; }
@@ -12,19 +8,28 @@
    
 .site-header__wrapper {
     padding-top: 1rem;
-    padding-bottom: 1rem; }
-@media (min-width: 550px) {
+    padding-bottom: 1rem; 
+    max-width: 1080px;
+    margin: auto; 
+    display: flex;
+}
+
+/*レスポンシブ対応*/
+@media (min-width: 499px) {
 .site-header__wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding-top: 0;
-        padding-bottom: 0; } }
-@media (min-width: 550px) {
+        padding-bottom: 0; } 
+}
+
+@media (min-width: 500px) and (max-width: 999px) {
 .nav__wrapper {
-      display: flex; } }
+      display: flex; } 
+}
    
-@media (max-width: 550px) {
+@media (max-width: 1000px) {
 .nav__wrapper {
       position: absolute;
       top: 100%;
@@ -36,6 +41,7 @@
       opacity: 0;
       transform: translateY(-100%);
       transition: transform 0.3s ease-out, opacity 0.3s ease-out; }
+
 .nav__wrapper.active {
         visibility: visible;
         opacity: 1;

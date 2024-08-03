@@ -1,7 +1,28 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
+/*レスポンシブ対応*/
+@media (min-width: 499px) {
+    .site-header__wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 0;
+            padding-bottom: 0; } 
+    }
+    
+ @media (min-width: 500px) and (max-width: 999px) {
+    .nav__wrapper {
+          display: flex; } 
+}
+       
+@media (max-width: 1000px) {
+    .nav__wrapper {
+          position: absolute;
+          top: 100%;
+          right: 0;
+          left: 0;
+          z-index: -1;
+          background-color: #d9f0f7;
+          visibility: hidden;
+          opacity: 0;
+          transform: translateY(-100%);
+          transition: transform 0.3s ease-out, opacity 0.3s ease-out; }
 }
