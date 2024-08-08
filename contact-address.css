@@ -27,6 +27,49 @@
           transition: transform 0.3s ease-out, opacity 0.3s ease-out; }
 }
 
+
+@media screen and (max-width: 550px) {
+    body {
+        font-size: 14px;
+    }
+ 
+    h1 {
+        font-size: 18px;
+    }
+ 
+    ul {
+        flex-direction: column; /* 垂直配置に変更 */
+        align-items: flex-start; /* 左寄せに変更 */
+    }
+ 
+    li {
+        margin: 10px 0; /* 各リスト項目の間にスペースを追加 */
+    }
+ 
+    .image-text-container {
+        flex-direction: column; /* 画像とテキストを縦に配置 */
+        font-size: 30px; /* フォントサイズを調整 */
+    }
+ 
+    img {
+        width: 100%; /* 画像の幅を100%に設定 */
+        height: auto; /* 高さを自動調整 */
+    }
+ 
+    .copy {
+        padding: 1rem 0; /* パディングを調整 */
+    }
+ 
+    .info {
+        padding: 0 1rem; /* パディングを調整 */
+    }
+ 
+    .font-japan {
+        font-size: 100%; /* フォントサイズを調整 */
+    }
+}
+
+
 h2 {
     text-align: center;
     font-weight: bold;
