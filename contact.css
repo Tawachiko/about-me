@@ -1,6 +1,6 @@
 /*レスポンシブ対応*/
 @media (min-width: 499px) {
-    .site-header__wrapper {
+    contact.css {
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -9,12 +9,12 @@
     }
     
  @media (min-width: 500px) and (max-width: 999px) {
-    .nav__wrapper {
+    contact.css {
           display: flex; } 
 }
        
 @media (max-width: 1000px) {
-    .nav__wrapper {
+    contact.css {
           position: absolute;
           top: 100%;
           right: 0;
