@@ -83,10 +83,6 @@ main {
     object-fit: cover; /* 親要素に合わせて画像を切り取る */
 }
 
-footer {
-    text-align: center;
-    padding: 2rem 0;
-}
 
 .container {
     display: flex;
@@ -246,13 +242,16 @@ text-box {
     z-index: 80;
     background-color: #3584bb;
  }
+
  .menu-content ul {
     padding: 70px 10px 0;
  }
+
  .menu-content ul li {
     border-bottom: solid 1px #ffffff;
     list-style: none;
  }
+
  .menu-content ul li a {
     display: block;
     width: 100%;
@@ -263,6 +262,7 @@ text-box {
     padding: 9px 15px 10px 0;
     position: relative;
  }
+
  .menu-content ul li a::before {
     content: "";
     width: 7px;
@@ -275,6 +275,7 @@ text-box {
     top: 16px;
  }
 
+
  .menu-content {
     width: 100%;
     height: 100%;
@@ -285,8 +286,88 @@ text-box {
     background-color: #3584bb;
     transition: all 0.5s;/*アニメーション設定*/
  }
+
  #menu-btn-check:checked ~ .menu-content {
     left: 0;/*メニューを画面内へ*/
+
 }
 
+#page-top {
+    position: fixed;
+    right: 10px;
+    bottom: 75px;
+    background: #FFF;
+    color: #111;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px -6px rgba(0,0,0,.5), 0 3px 10px -4px rgba(0,0,0,.2);
+    z-index: 10;
+ }
+ #page-top:hover {
+    background: #111;
+    color: #FFF;
+ }
+ #page-top i {
+    padding-top: 5px;
+    font-size: 1.3rem;
+    display: block;
+ }
+ #page-top span {
+    font-size: 0.8rem;
+ }
+ /***トップへ戻るボタンここまで***/
+ /***追従するHOMEボタン***/
+ #home-link {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background: #fff;
+    color: #111;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px -6px rgba(0,0,0,.5), 0 3px 10px -4px rgba(0,0,0,.2);
+    z-index: 10;
+ }
+ #home-link:hover {
+    background: #111;
+    color: #FFF;
+ }
+ #home-link i {
+    padding-top: 7px;
+    font-size: 1.3rem;
+    display: block;
+ }
+ #home-link span {
+    font-size: 0.8rem;
+ }
+
+#page-top:hover {
+    background: #111;
+    color: #fff;
+}
+
+.back-button {
+    position: fixed; /* ボタンを画面に固定 */
+    bottom: 20px; /* 画面下からの距離 */
+    left: 20px; /* 画面左からの距離 */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.back-button:hover {
+    background-color: #0056b3; /* ホバー時の色 */
+}
 

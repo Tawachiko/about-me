@@ -31,6 +31,13 @@
     position: fixed;
 }
 
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
 body {
     background-image: url(image/background.jpg);
     background-repeat: no-repeat;
@@ -204,3 +211,64 @@ body {
     left: 0;/*メニューを画面内へ*/
 }
 
+#page-top {
+    position: fixed;
+    right: 10px;
+    bottom: 75px;
+    background: #FFF;
+    color: #111;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px -6px rgba(0,0,0,.5), 0 3px 10px -4px rgba(0,0,0,.2);
+    z-index: 10;
+ }
+ #page-top:hover {
+    background: #111;
+    color: #FFF;
+ }
+ #page-top i {
+    padding-top: 5px;
+    font-size: 1.3rem;
+    display: block;
+ }
+ #page-top span {
+    font-size: 0.8rem;
+ }
+ /***トップへ戻るボタンここまで***/
+ /***追従するHOMEボタン***/
+ #home-link {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    background: #fff;
+    color: #111;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    border: solid 1px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px -6px rgba(0,0,0,.5), 0 3px 10px -4px rgba(0,0,0,.2);
+    z-index: 10;
+ }
+ #home-link:hover {
+    background: #111;
+    color: #FFF;
+ }
+ #home-link i {
+    padding-top: 7px;
+    font-size: 1.3rem;
+    display: block;
+ }
+ #home-link span {
+    font-size: 0.8rem;
+ }
+
+#page-top:hover {
+    background: #111;
+    color: #fff;
+}
