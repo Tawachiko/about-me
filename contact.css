@@ -272,3 +272,8 @@ body {
     background: #111;
     color: #fff;
 }
+
+.th {
+    text-align:left;
+    font-size: 20px;
+}
