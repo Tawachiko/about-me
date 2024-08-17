@@ -94,20 +94,6 @@ main {
     display: flex;
 }
 
-.item {
-    color: #fff;
-    margin: 5px;
-    padding: 5px;
-}
-
-.item img {
-    width: 100%;
-    max-width: 400px;
-    max-height: 500px;
-    object-fit: cover;
-    height: 100%;
-}
-
 image-container {
     background: #f00;
     width:100%;
@@ -117,13 +103,6 @@ image-container {
     object-fit: cover;
 }
 
-text-box {
-    background: #0bd;
-    color: #fff;
-    margin: 5px;
-    padding: 5px;
-    object-fit: cover;
-}
 
 .footer02 {
     color: #808080;

@@ -6,7 +6,7 @@
             justify-content: space-between;
             align-items: center;
             padding-top: 0;
-            padding-bottom: 0; } 
+            padding-bottom: 0; }
     }
     
  @media (min-width: 500px) and (max-width: 999px) {
@@ -28,35 +28,102 @@
           transition: transform 0.3s ease-out, opacity 0.3s ease-out; }
 }
 
+@media (max-width: 1000px) {
+    p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 999px) {
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 499px) {
+    p {
+        font-size: 1.8rem;
+    }
+} 
+
+.item {
+    color: #fff;
+    margin: 5px;
+    padding: 5px;
+}
+
+.h1 {
+    text-align: center;
+}
+
 .main {
     padding: 2rem;
     max-width: 1080px;
     margin: auto;
 }
 
-.image-container {
+.milestones {
     display: flex;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
-img {
-    display: block;
-    width: 50%;
-    height: auto;
-    border-radius: 40px;
-    object-fit: cover;
+.milestones article {
+    flex: 1 1 calc(50% - 1rem); /* 2つのカラムに分割 */
+    background-color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.milestones h2 {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.milestones .image-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 画像を2列に分割 */
+    gap: 1rem; /* 画像間のスペース */
+}
+
+.milestones img {
+    display: block;
+    width: 100%;
+    height: auto; /* 高さを自動で調整 */
+    border-radius: 8px;
+    object-fit: cover; /* 親要素に合わせて画像を切り取る */
+}
+
 
 .container {
     display: flex;
+    width:50%;
+    height:100vh;
+    padding:20px;
+    background-color: white;
+    box-shadow:rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
-text-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: right;
-    padding: 1rem;
+.header,.content {
+    text-align: center;
+}
+
+image-container {
+    background: #f00;
+    width:100%;
+    height:100%;
+    max-width: 400px;
+    max-height: 800px;
+    object-fit: cover;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
 }
 
 
@@ -65,15 +132,25 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #f8f8f8;
+    font-feature-settings: "palt";
 }
+
+.palt {
+    font-feature-settings: "palt";
+    letter-spacing: 0.04em;
+}
+
 
 .a {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 1rem 0;
-    font-size: 200px;
+    font-size: 100px;
 }
 
 .footer02 {
@@ -304,36 +381,3 @@ header {
  #home-link span {
     font-size: 0.8rem;
  }
-
- .milestones {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-}
-
-.milestones article {
-    flex: 1 1 calc(50% - 1rem); /* 2つのカラムに分割 */
-    background-color: white;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.milestones h2 {
-    margin-top: 0;
-    font-size: 1.5rem;
-}
-
-.milestones .image-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* 画像を2列に分割 */
-    gap: 1rem; /* 画像間のスペース */
-}
-
-.milestones img {
-    display: block;
-    width: 100%;
-    height: auto; /* 高さを自動で調整 */
-    border-radius: 8px;
-    object-fit: cover; /* 親要素に合わせて画像を切り取る */
-}
