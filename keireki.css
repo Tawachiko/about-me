@@ -136,6 +136,7 @@ image-container {
 }
 
 
+
 .menu-btn {
 
     position: fixed;
@@ -213,7 +214,6 @@ image-container {
 
 }
 
-
 .menu-content {
     width: 100%;
     height: 100%;
@@ -223,16 +223,13 @@ image-container {
     z-index: 80;
     background-color: #3584bb;
  }
-
  .menu-content ul {
     padding: 70px 10px 0;
  }
-
  .menu-content ul li {
     border-bottom: solid 1px #ffffff;
     list-style: none;
  }
-
  .menu-content ul li a {
     display: block;
     width: 100%;
@@ -243,7 +240,6 @@ image-container {
     padding: 9px 15px 10px 0;
     position: relative;
  }
-
  .menu-content ul li a::before {
     content: "";
     width: 7px;
@@ -256,7 +252,6 @@ image-container {
     top: 16px;
  }
 
-
  .menu-content {
     width: 100%;
     height: 100%;
@@ -267,10 +262,8 @@ image-container {
     background-color: #3584bb;
     transition: all 0.5s;/*アニメーション設定*/
  }
-
  #menu-btn-check:checked ~ .menu-content {
     left: 0;/*メニューを画面内へ*/
-
 }
 
 #page-top {

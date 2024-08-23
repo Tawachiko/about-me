@@ -115,7 +115,7 @@ body {
     }
  
     li {
-        margin: 10px 0; /* 各リスト項目の間にスペースを追加 */
+        margin: 10px 0; /* 各リスト項目の間にスペースを追加 */ 
     }
  
     .image-text-container {
@@ -146,6 +146,7 @@ main {
     max-width: 1080px;
     margin: auto;
 }
+
 
 .menu-btn {
 
@@ -275,4 +276,3 @@ main {
  #menu-btn-check:checked ~ .menu-content {
     left: 0;/*メニューを画面内へ*/
 }
-
