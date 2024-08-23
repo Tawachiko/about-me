@@ -3,7 +3,7 @@
 
 # About Me 
 
-サイトURL: https://wangchangdog.github.io/about-me/
+サイトURL: https://tawachiko.github.io/about-me/
 
 (例)
 このサイトは私の自己紹介のために制作しました。
@@ -15,8 +15,7 @@
 
 ## TOP
 
-- (ex: TOPページのこだわりポイントは...)
-- (ex:デザインのお手本は~でした。)
+ウェーイウェーイ
 
 ## 自己紹介のページ
 

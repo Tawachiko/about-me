@@ -58,11 +58,6 @@
     padding: 0 20px;
 }
 
-.footer02 .copyright {
-    margin: 0;
-    padding: 20px 0 0 0;
-}
-
 .menu-btn {
 
     position: fixed;
@@ -135,7 +130,6 @@
 
 
 #menu-btn-check {
-
     display: none;
 
 }
