@@ -43,7 +43,6 @@
       transition: transform 0.3s ease-out, opacity 0.3s ease-out; }
 
 
-
 .nav__wrapper.active {
         visibility: visible;
         opacity: 1;
@@ -108,16 +107,26 @@ body {
     h1 {
         font-size: 18px;
     }
- 
+    
     ul {
-        flex-direction: column; /* 垂直配置に変更 */
-        align-items: flex-start; /* 左寄せに変更 */
-    }
- 
-    li {
-        margin: 10px 0; /* 各リスト項目の間にスペースを追加 */ 
-    }
- 
+        list-style-type: none; /* リストのデフォルトの箇条書きマークを削除 */
+        padding: 0;
+        margin: 0;
+      }
+      
+      li {
+        text-align: center; /* 文字を水平に中央揃え */
+        display: flex;
+        align-items: center; /* 文字を垂直に中央揃え */
+        justify-content: center; /* 文字を水平に中央揃え */
+        height: 50px; /* 必要に応じて高さを調整 */
+        border: 1px solid #fff; /* 任意: 各項目に境界線を追加 */
+      }
+      
+      li:hover {
+        background-color: #005f9e; /* 任意: ホバー時に背景色を変更 */
+      }
+      
     .image-text-container {
         flex-direction: column; /* 画像とテキストを縦に配置 */
         font-size: 30px; /* フォントサイズを調整 */
@@ -232,15 +241,18 @@ main {
     top: 0;
     left: 0;
     z-index: 80;
-    background-color: #3584bb;
+    background-color: 
+    #3584bb;
  }
  .menu-content ul {
     padding: 70px 10px 0;
  }
+
  .menu-content ul li {
     border-bottom: solid 1px #ffffff;
     list-style: none;
  }
+
  .menu-content ul li a {
     display: block;
     width: 100%;
@@ -251,6 +263,7 @@ main {
     padding: 9px 15px 10px 0;
     position: relative;
  }
+
  .menu-content ul li a::before {
     content: "";
     width: 7px;
@@ -273,6 +286,7 @@ main {
     background-color: #3584bb;
     transition: all 0.5s;/*アニメーション設定*/
  }
+
  #menu-btn-check:checked ~ .menu-content {
     left: 0;/*メニューを画面内へ*/
 }
