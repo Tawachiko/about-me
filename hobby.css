@@ -10,10 +10,22 @@
             padding-top: 0;
             padding-bottom: 0; } 
     }
+
+    @media screen and (max-height: 600px) {
+      img {
+         width: 50%;
+         height: 100%;
+      }
+}
     
  @media (min-width: 500px) and (max-width: 999px) {
    p {
       font-size: 25px;
+   }
+   image {
+      width: 100%;
+      height: auto; /* 高さを自動調整 */
+      max-height: 150%;
    }
     .nav__wrapper {
           display: flex; } 
