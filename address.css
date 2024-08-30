@@ -52,6 +52,17 @@ h1 {
     margin-bottom: 20px;
 }
 
+h2 {
+      font-size:40px;
+   }
+
+h3 {
+      font-size:30px;
+}
+
+.p {
+      font-size: 20px;
+}
 .footer02 {
     color: #808080;
     background: #e5e5e5;

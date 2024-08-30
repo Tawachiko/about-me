@@ -2,7 +2,7 @@
 /*レスポンシブ対応*/
 @media (min-width: 499px) {
     p {
-        font-size: 35px;
+        font-size: 45px;
      }
     .site-header__wrapper {
             display: flex;
@@ -14,8 +14,9 @@
     
  @media (min-width: 500px) and (max-width: 999px) {
     p {
-        font-size: 25px;
+        font-size:30px;
      }
+      .nav
     .nav__wrapper {
           display: flex; } 
 }
@@ -23,7 +24,7 @@
 @media (max-width: 1000px) {
     p {
         font-size: 20px;
-     }
+    }
     .nav__wrapper {
           position: absolute;
           top: 100%;
@@ -37,23 +38,6 @@
           transition: transform 0.3s ease-out, opacity 0.3s ease-out; }
 }
 
-@media (max-width: 1000px) {
-    p {
-        font-size: 1.2rem;
-    }
-}
-
-@media (min-width: 500px) and (max-width: 999px) {
-    p {
-        font-size: 1.5rem;
-    }
-}
-
-@media (min-width: 499px) {
-    p {
-        font-size: 1.8rem;
-    }
-} 
 
 .item {
     color: #fff;
@@ -104,9 +88,9 @@
     object-fit: cover; /* 親要素に合わせて画像を切り取る */
 }
 
-
 .container {
     display: flex;
+    font-size:100px;
     width:50%;
     height:100vh;
     padding:20px;
