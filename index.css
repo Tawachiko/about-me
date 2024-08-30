@@ -16,6 +16,9 @@
 
 /*レスポンシブ対応*/
 @media (min-width: 499px) {
+    p {
+        font-size: 35px;
+     }
 .site-header__wrapper {
         display: flex;
         justify-content: space-between;
@@ -25,11 +28,17 @@
 }
 
 @media (min-width: 500px) and (max-width: 999px) {
+    p {
+        font-size: 25px;
+     }
 .nav__wrapper {
       display: flex; } 
 }
    
 @media (max-width: 1000px) {
+    p {
+        font-size: 20px;
+     }
 .nav__wrapper {
       position: absolute;
       top: 100%;
@@ -262,6 +271,7 @@ main {
     text-decoration: none;
     padding: 9px 15px 10px 0;
     position: relative;
+    text-align:center;
  }
 
  .menu-content ul li a::before {

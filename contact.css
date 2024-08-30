@@ -1,5 +1,8 @@
 /*レスポンシブ対応*/
 @media (min-width: 499px) {
+    p {
+        font-size: 35px;
+     }
     contact.css {
             display: flex;
             justify-content: space-between;
@@ -9,11 +12,17 @@
     }
     
  @media (min-width: 500px) and (max-width: 999px) {
+    p {
+        font-size: 25px;
+     }
     contact.css {
           display: flex; } 
 }
        
 @media (max-width: 1000px) {
+    p {
+        font-size: 20px;
+     }
     contact.css {
           position: absolute;
           top: 100%;

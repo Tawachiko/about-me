@@ -1,5 +1,8 @@
 /*レスポンシブ対応*/
 @media (min-width: 499px) {
+   p {
+      font-size: 35px;
+   }
     .site-header__wrapper {
             display: flex;
             justify-content: space-between;
@@ -9,11 +12,17 @@
     }
     
  @media (min-width: 500px) and (max-width: 999px) {
+   p {
+      font-size: 25px;
+   }
     .nav__wrapper {
           display: flex; } 
 }
        
 @media (max-width: 1000px) {
+   p {
+      font-size: 20px;
+   }
     .nav__wrapper {
           position: absolute;
           top: 100%;
@@ -26,6 +35,9 @@
           transform: translateY(-100%);
           transition: transform 0.3s ease-out, opacity 0.3s ease-out; }
 }
+
+body {
+   font-size: clamp(12px, 4vw, 24px);}
 
 .footer02 {
     color: #808080;
@@ -253,4 +265,61 @@ header {
 #page-top:hover {
     background: #111;
     color: #fff;
+}
+
+main {
+   padding: 2rem;
+   max-width: 1080px;
+   margin: auto;
+}
+
+.milestones {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2rem;
+}
+
+.milestones article {
+   flex: 1 1 calc(50% - 1rem); /* 2つのカラムに分割 */
+   background-color: white;
+   padding: 1rem;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.milestones h2 {
+   margin-top: 0;
+   font-size: 1.5rem;
+}
+
+.milestones .image-container {
+   display: grid;
+   grid-template-columns: 1fr 1fr; /* 画像を2列に分割 */
+   gap: 1rem; /* 画像間のスペース */
+}
+
+.milestones img {
+   display: block;
+   width: 100%;
+   height: auto; /* 高さを自動で調整 */
+   border-radius: 8px;
+   object-fit: cover; /* 親要素に合わせて画像を切り取る */
+}
+
+
+.container {
+   display: flex;
+}
+
+image-container {
+   background: #f00;
+   width:100%;
+   height:100%;
+   max-width: 400px;
+   max-height: 800px;
+   object-fit: cover;
+}
+
+.p {font-size: clamp(32px, 8vw, 60px);
+   word-break: break-all;
 }
